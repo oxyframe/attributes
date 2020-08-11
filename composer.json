@@ -1,0 +1,20 @@
+{
+    "name": "oxyframe/attributes",
+    "description": "Easy getter, setter for your custom classes.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Sampan Verma",
+        "email": "sampan.developer@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
